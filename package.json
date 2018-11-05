@@ -1,0 +1,31 @@
+{
+  "name": "indecision",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ME",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "live-server": "^1.2.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-modal": "2.2.2",
+    "validator": "8.0.0",
+    "webpack": "3.8.0",
+    "webpack-dev-server": "2.9.7"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
